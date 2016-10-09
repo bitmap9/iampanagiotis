@@ -147,6 +147,10 @@ main {
         
       p {
         margin-top: 20px;
+        
+        @include breakpoint(tablet-only) {
+          font-size: 1.7rem;
+        }
       }
       
       ul {

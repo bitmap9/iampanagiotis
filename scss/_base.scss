@@ -19,6 +19,9 @@
     @else if $point == tablet {
       @media (max-width: 799px) { @content; }
     }
+    @else if $point == tablet-only {
+      @media (max-device-width: 799px) and (min-device-width: 600px) { @content; }
+    }
     @else if $point == small-desktop {
       @media (max-width: 1110px) { @content; }
     }
