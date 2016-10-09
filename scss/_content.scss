@@ -258,7 +258,7 @@ main {
       margin: 140px auto 0;
       border: 1px solid $grey-xlight;
       
-      @include breakpoint(tablet) {
+      @include breakpoint(small-desktop) {
         border: none;
         background-color: $grey-xxlight;
       }
@@ -296,15 +296,26 @@ footer {
     margin: 40px auto 160px;
     max-width: 422px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;    
     
     @include breakpoint(mobile) {
       display: block;
+      max-width: none;
     }
     
-    li {
-      margin-bottom: 20px;
+    .grid__row {
+      display: flex;
+      justify-content: space-between;
+      
+      @include breakpoint(mobile) {
+        display: block;
+      }
+    }
+    
+    .grid__row {
+      .grid__item {
+        margin-bottom: 22px;
+      }
     }
     
     img {
