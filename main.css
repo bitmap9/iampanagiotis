@@ -113,15 +113,12 @@ header {
           margin: 0 auto; } }
   header .social {
     -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
             justify-content: flex-end;
     position: absolute;
@@ -133,7 +130,6 @@ header {
         top: auto;
         right: auto;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
             -ms-flex-pack: center;
                 justify-content: center;
         margin-bottom: 34px; } }
@@ -146,7 +142,7 @@ header {
     margin-top: 100px; }
     header .lower h2 {
       margin-bottom: 34px; }
-      @media (max-width: 1110px) {
+      @media (max-width: 799px) {
         header .lower h2 {
           margin-bottom: 84px; } }
     header .lower .scroll {
@@ -166,7 +162,7 @@ header {
       margin: 0 auto 8px; }
     header .lower .icon-arrow-down {
       display: none; }
-    @media (max-width: 1110px) {
+    @media (max-width: 799px) {
       header .lower .icon-arrow-down {
         display: block;
         margin: 8px auto 0; }
@@ -175,23 +171,25 @@ header {
 
 main section {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  @media (max-width: 599px) {
+  @media (max-width: 799px) {
     main section {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
           -ms-flex-direction: column;
               flex-direction: column; } }
   main section div {
     width: 45%;
     max-width: 422px; }
+    @media (max-width: 799px) {
+      main section div {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; } }
     @media (max-width: 599px) {
       main section div {
         width: 100%;
@@ -205,24 +203,19 @@ main section {
     position: relative;
     left: -8px;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column; }
-    @media (max-width: 1110px) {
+    @media (max-width: 799px) {
       main section .details {
         padding-left: 0;
-        background: none; } }
-    @media (max-width: 599px) {
-      main section .details {
+        background: none;
         margin-top: 0;
         padding-top: 40px;
         -webkit-box-ordinal-group: 3;
-        -webkit-order: 2;
             -ms-flex-order: 2;
                 order: 2;
         left: 0; }
@@ -232,63 +225,52 @@ main section {
       margin-top: 20px; }
     main section .details ul {
       -webkit-box-flex: 1;
-      -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       margin-top: 40px;
       display: flex; }
-      @media (max-width: 599px) {
+      @media (max-width: 799px) {
         main section .details ul {
           -webkit-box-pack: center;
-          -webkit-justify-content: center;
               -ms-flex-pack: center;
                   justify-content: center; } }
       main section .details ul li {
         margin-right: 20px;
-        -webkit-align-self: flex-end;
-            -ms-flex-item-align: end;
-                align-self: flex-end; }
+        -ms-flex-item-align: end;
+            align-self: flex-end; }
         main section .details ul li:last-child {
           margin-right: 0; }
     main section .details .cta {
       -webkit-box-flex: 1;
-      -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       margin-top: 40px;
       -webkit-box-align: end;
-      -webkit-align-items: flex-end;
           -ms-flex-align: end;
               align-items: flex-end; }
-      @media (max-width: 599px) {
+      @media (max-width: 799px) {
         main section .details .cta {
           -webkit-box-pack: center;
-          -webkit-justify-content: center;
               -ms-flex-pack: center;
                   justify-content: center; } }
       main section .details .cta a {
         color: #474a4f;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: end;
-        -webkit-align-items: flex-end;
             -ms-flex-align: end;
                 align-items: flex-end;
         border: 1px solid #474a4f;
         padding: 10px 20px;
         text-decoration: none;
         -webkit-box-flex: 0;
-        -webkit-flex-grow: 0;
             -ms-flex-positive: 0;
                 flex-grow: 0;
         -webkit-transition: all .2s ease-in-out;
@@ -301,9 +283,8 @@ main section {
           margin-left: 10px;
           top: 1px;
           font-weight: 500;
-          -webkit-flex-shrink: 0;
-              -ms-flex-negative: 0;
-                  flex-shrink: 0; }
+          -ms-flex-negative: 0;
+              flex-shrink: 0; }
   @media (max-width: 599px) {
     main section .media {
       background: url("images/separator.svg") no-repeat center 0;
@@ -339,7 +320,7 @@ main section {
     padding: 60px;
     margin: 140px auto 0;
     border: 1px solid #edeff2; }
-    @media (max-width: 1110px) {
+    @media (max-width: 799px) {
       main section.about {
         border: none;
         background-color: #f7f8fA; } }
@@ -364,14 +345,11 @@ footer .grid {
   margin: 40px auto 160px;
   max-width: 422px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
   @media (max-width: 599px) {
