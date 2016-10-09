@@ -177,6 +177,7 @@ main {
         flex-grow: 1;
         display: flex;
         margin-top: 40px;
+        align-items: flex-end;
         
         @include breakpoint(tablet) {
           justify-content: center;
@@ -185,7 +186,7 @@ main {
         a {
           color: $grey-dark;        
           display: flex;
-          align-items: flex-end;
+          align-items: center;
           border: 1px solid $grey-dark;
           padding: 10px 20px;
           text-decoration: none;

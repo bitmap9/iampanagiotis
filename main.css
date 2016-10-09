@@ -253,7 +253,10 @@ main section {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-top: 40px; }
+      margin-top: 40px;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
       @media (max-width: 799px) {
         main section .details .cta {
           -webkit-box-pack: center;
@@ -264,9 +267,9 @@ main section {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-align: end;
-            -ms-flex-align: end;
-                align-items: flex-end;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         border: 1px solid #474a4f;
         padding: 10px 20px;
         text-decoration: none;
