@@ -223,7 +223,7 @@ main section {
           text-align: center; } }
     main section .details p {
       margin-top: 20px; }
-      @media (max-device-width: 799px) and (min-device-width: 600px) {
+      @media (max-width: 799px) and (min-width: 600px) {
         main section .details p {
           font-size: 1.7rem; } }
     main section .details ul {
