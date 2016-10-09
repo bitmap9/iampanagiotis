@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="28px" viewBox="0 0 30 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-ps</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="28"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="iampanagiotis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-93.000000, -1786.000000)">
+            <g id="flow" transform="translate(42.000000, 527.000000)">
+                <g id="mockups" transform="translate(0.000000, 918.000000)">
+                    <g id="description" transform="translate(51.000000, 51.000000)">
+                        <g id="icons" transform="translate(0.000000, 290.000000)">
+                            <g id="icon-ps">
+                                <use id="Rectangle-2" stroke="#7E848C" mask="url(#mask-2)" stroke-width="2.4" xlink:href="#path-1"></use>
+                                <path d="M7,21.938 L8.914,21.938 L8.914,15.998 C9.354,16.108 9.882,16.13 10.454,16.13 C12.324,16.13 13.974,15.58 14.986,14.502 C15.734,13.732 16.13,12.676 16.13,11.334 C16.13,10.014 15.646,8.936 14.832,8.232 C13.952,7.44 12.566,7 10.674,7 C9.134,7 7.924,7.132 7,7.286 L7,21.938 Z M8.914,8.672 C9.244,8.584 9.882,8.518 10.718,8.518 C12.83,8.518 14.216,9.464 14.216,11.422 C14.216,13.468 12.808,14.59 10.498,14.59 C9.86,14.59 9.332,14.546 8.914,14.436 L8.914,8.672 Z M16.99,21.432 C17.738,21.872 18.816,22.158 19.982,22.158 C22.512,22.158 23.964,20.838 23.964,18.968 C23.964,17.384 23.018,16.46 21.17,15.756 C19.784,15.228 19.146,14.832 19.146,13.952 C19.146,13.16 19.784,12.5 20.928,12.5 C21.918,12.5 22.688,12.852 23.106,13.116 L23.59,11.708 C22.996,11.356 22.05,11.048 20.972,11.048 C18.684,11.048 17.298,12.456 17.298,14.172 C17.298,15.448 18.2,16.504 20.114,17.186 C21.544,17.714 22.094,18.22 22.094,19.144 C22.094,20.024 21.434,20.728 20.026,20.728 C19.058,20.728 18.046,20.332 17.474,19.958 L16.99,21.432 Z" id="Ps" fill="#7E848C"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

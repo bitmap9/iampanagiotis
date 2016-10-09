@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="150px" viewBox="0 0 200 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>placeholder-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iampanagiotis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-43.000000, -3221.000000)">
+            <g id="more" transform="translate(43.000000, 3175.000000)">
+                <g id="placeholders" transform="translate(0.000000, 46.000000)">
+                    <g id="placeholder-small">
+                        <rect id="placeholder" fill="#EDEFF2" x="0" y="0" width="200" height="150"></rect>
+                        <path d="M119.660938,81.3745612 L111.466617,72.2247366 C110.89098,71.6004074 109.918468,71.5610533 109.294138,72.1366902 C109.264456,72.1640379 109.236108,72.1923862 109.20876,72.221735 L105.059906,76.847841 L95.991791,66.7311733 C95.1393415,65.8083534 93.6999158,65.7513233 92.7770959,66.6041063 C92.7330727,66.6447944 92.690717,66.6871501 92.6500289,66.7311733 L80.5202997,80.2756484 C79.3196667,81.6150213 80.3301995,83.6774421 82.1911808,83.6774421 L118.533677,83.6774421 C119.302416,83.7174632 119.958095,83.1268185 119.998116,82.3580798 C120.016792,81.9988904 119.896062,81.6467047 119.660938,81.3745612" id="photo" fill="#DFE2E6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
