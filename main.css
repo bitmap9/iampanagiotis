@@ -42,7 +42,7 @@ html {
   height: 100%; }
 
 body {
-  font-size: 1.6em;
+  font-size: 1.7em;
   font-family: "Raleway", sans-serif;
   line-height: normal;
   color: #474a4f;
@@ -220,15 +220,9 @@ main section {
                 order: 2;
         left: 0; }
         main section .details h3 {
-          text-align: center;
-          border-left: 1px solid #bbbfc4;
-          border-right: 1px solid #bbbfc4;
-          padding: 4px 0; } }
+          text-align: center; } }
     main section .details p {
       margin-top: 20px; }
-      @media (max-width: 799px) and (min-width: 600px) {
-        main section .details p {
-          font-size: 1.7rem; } }
     main section .details ul {
       -webkit-box-flex: 1;
           -ms-flex-positive: 1;

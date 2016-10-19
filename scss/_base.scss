@@ -16,7 +16,7 @@
     @if $point == mobile {
       @media (max-width: 599px) { @content; }
     }
-    @else if $point == tablet {
+    @else if $point == tablet-and-mobile {
       @media (max-width: 799px) { @content; }
     }
     @else if $point == tablet-only {
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-size: 1.6em;
+  font-size: 1.7em;
   font-family: $raleway;
   line-height: normal;
   color: $grey-dark;

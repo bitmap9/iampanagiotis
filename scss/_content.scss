@@ -50,7 +50,7 @@ header {
     h2 {
       margin-bottom: 34px;
       
-      @include breakpoint(tablet) {
+      @include breakpoint(tablet-and-mobile) {
         margin-bottom: 84px;
       }
     }
@@ -83,7 +83,7 @@ header {
       display: none;
     }
     
-    @include breakpoint(tablet) {
+    @include breakpoint(tablet-and-mobile) {
       .icon-arrow-down {
         display: block;
         margin: 8px auto 0;
@@ -101,7 +101,7 @@ main {
     display: flex;
     justify-content: space-between;
     
-    @include breakpoint(tablet) {
+    @include breakpoint(tablet-and-mobile) {
       flex-direction: column;
     }
     
@@ -109,7 +109,7 @@ main {
       width: 45%;
       max-width: 422px;
       
-      @include breakpoint(tablet) {
+      @include breakpoint(tablet-and-mobile) {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -132,7 +132,7 @@ main {
       display: flex;
       flex-direction: column;
       
-      @include breakpoint(tablet) {
+      @include breakpoint(tablet-and-mobile) {
         padding-left: 0;
         background: none;
         margin-top: 0;
@@ -142,18 +142,11 @@ main {
         
         h3 {
           text-align: center;
-          border-left: 1px solid $grey-light;
-          border-right: 1px solid $grey-light;
-          padding: 4px 0;
         }
       }
         
       p {
         margin-top: 20px;
-        
-        @include breakpoint(tablet-only) {
-          font-size: 1.7rem;
-        }
       }
       
       ul {
@@ -162,7 +155,7 @@ main {
         margin-top: 40px;
         display: flex;
         
-        @include breakpoint(tablet) {
+        @include breakpoint(tablet-and-mobile) {
           justify-content: center;
         }
         
@@ -182,7 +175,7 @@ main {
         margin-top: 40px;
         align-items: flex-end;
         
-        @include breakpoint(tablet) {
+        @include breakpoint(tablet-and-mobile) {
           justify-content: center;
         }
       
