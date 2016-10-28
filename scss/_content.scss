@@ -63,7 +63,7 @@ header {
     strong {
       font-size: 1.2rem;
       font-weight: 500;
-      color: $grey-light;
+      color: $grey-medium;
       margin-top: 10px;
       margin-bottom: 10px;
     }
@@ -126,7 +126,7 @@ main {
       padding-top: 60px;
       margin-top: -60px;
       text-align: left;
-      background: url("images/timeline.svg") no-repeat 0 6px;
+      background: url("images/timeline.svg") no-repeat 0 26px;
       position: relative;
       left: -8px;
       display: flex;
@@ -172,7 +172,7 @@ main {
       .cta {
         flex-grow: 1;
         display: flex;
-        margin-top: 40px;
+        margin-top: 30px;
         align-items: flex-end;
         
         @include breakpoint(tablet-and-mobile) {
@@ -248,7 +248,7 @@ main {
       }
       
       h2 {
-        max-width: 386px;
+        max-width: 430px;
         margin: 0 auto;
       }
     }

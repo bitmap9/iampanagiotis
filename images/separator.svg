@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="203px" height="2px" viewBox="0 0 203 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+<svg width="202px" height="2px" viewBox="0 0 202 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
     <title>separator</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="iampanagiotis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="desktop" transform="translate(-410.000000, -351.000000)" stroke="#EDEFF2">
-            <g id="header" transform="translate(42.000000, 43.000000)">
-                <g id="hero" transform="translate(248.000000, 133.000000)">
-                    <path d="M121,176 L322.030029,176" id="separator"></path>
-                </g>
-            </g>
-        </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,1 L201.030029,1" id="separator" stroke="#DFE1E6"></path>
     </g>
 </svg>

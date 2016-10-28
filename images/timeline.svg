@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="21px" height="856px" viewBox="0 0 21 856" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+<svg width="21px" height="836px" viewBox="0 0 21 836" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
     <title>timeline</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="49.4897959%" id="linearGradient-1">
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="93.5677083%" id="linearGradient-1">
             <stop stop-color="#FFFFFF" offset="0%"></stop>
-            <stop stop-color="#EDEFF2" offset="100%"></stop>
+            <stop stop-color="#DFE1E6" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="iampanagiotis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="desktop" transform="translate(-36.000000, -1445.000000)">
-            <g id="flow" transform="translate(5.000000, 529.000000)">
-                <g id="mockups" transform="translate(0.000000, 916.000000)">
-                    <g id="timeline" transform="translate(31.000000, 0.000000)">
-                        <rect id="Rectangle-22" fill="#EDEFF2" x="10" y="56" width="1" height="800"></rect>
-                        <rect id="Rectangle-22" fill="url(#linearGradient-1)" x="10" y="0" width="1" height="62.5900002"></rect>
-                        <g id="Group" transform="translate(0.000000, 49.000000)">
-                            <circle id="Oval-1" fill="#FFFFFF" cx="10.5" cy="10.5" r="10.5"></circle>
-                            <circle id="Oval-1" fill="#D5D7DB" cx="10.5" cy="10.5" r="2.5"></circle>
-                        </g>
-                    </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="timeline">
+            <g>
+                <rect id="Rectangle-22" fill="#DFE2E6" x="10" y="36" width="1" height="800"></rect>
+                <rect id="Rectangle-22" fill="url(#linearGradient-1)" x="10" y="0" width="1" height="30"></rect>
+                <g id="Group" transform="translate(0.000000, 29.000000)">
+                    <circle id="Oval-1" fill="#FFFFFF" cx="10.5" cy="10.5" r="10.5"></circle>
+                    <circle id="Oval-1" fill="#BBBFC4" cx="10.5" cy="10.5" r="2.5"></circle>
                 </g>
             </g>
         </g>

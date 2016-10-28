@@ -55,7 +55,7 @@ a {
 
 h1 {
   font-weight: 800;
-  font-size: 6rem;
+  font-size: 6.4rem;
   margin-bottom: 10px;
   margin-top: 20px; }
   @media (max-width: 599px) {
@@ -63,7 +63,7 @@ h1 {
       font-size: 3rem; } }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 1.5;
   font-weight: 500; }
   h2 strong {
@@ -151,7 +151,7 @@ header {
     header .lower strong {
       font-size: 1.2rem;
       font-weight: 500;
-      color: #bbbfc4;
+      color: #7e848c;
       margin-top: 10px;
       margin-bottom: 10px; }
     header .lower .separator {
@@ -199,7 +199,7 @@ main section {
     padding-top: 60px;
     margin-top: -60px;
     text-align: left;
-    background: url("images/timeline.svg") no-repeat 0 6px;
+    background: url("images/timeline.svg") no-repeat 0 26px;
     position: relative;
     left: -8px;
     display: -webkit-box;
@@ -250,7 +250,7 @@ main section {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-top: 40px;
+      margin-top: 30px;
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end; }
@@ -314,12 +314,12 @@ main section {
       main section.intro {
         padding: 80px 20px 0; } }
     main section.intro h2 {
-      max-width: 386px;
+      max-width: 430px;
       margin: 0 auto; }
   main section.about {
     padding: 60px;
     margin: 140px auto 0;
-    border: 1px solid #edeff2; }
+    border: 1px solid #dfe1e6; }
     @media (max-width: 1110px) {
       main section.about {
         border: none;

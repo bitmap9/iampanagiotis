@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
     <title>icon-mouse</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="12" height="21" rx="6"></rect>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="21" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
     </defs>
-    <g id="iampanagiotis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="desktop" transform="translate(-508.000000, -389.000000)">
-            <g id="header" transform="translate(42.000000, 43.000000)">
-                <g id="scroll" transform="translate(411.000000, 346.000000)">
-                    <g id="icon-mouse" transform="translate(55.000000, 0.000000)">
-                        <use id="Rectangle-34" stroke="#BBBFC4" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
-                        <rect id="Rectangle-35" fill="#BBBFC4" x="5" y="5" width="2" height="5" rx="1"></rect>
-                    </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-mouse">
+            <g id="Rectangle-34-Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="path-1"></g>
+                <g id="Rectangle-34" mask="url(#mask-2)" stroke="#7E848C" stroke-width="2">
+                    <rect id="path-1" x="0" y="0" width="12" height="21" rx="6"></rect>
                 </g>
             </g>
+            <rect id="Rectangle-35" fill="#7E848C" x="5" y="5" width="2" height="5" rx="1"></rect>
         </g>
     </g>
 </svg>
