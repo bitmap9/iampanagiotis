@@ -61,8 +61,7 @@ header {
     }
     
     strong {
-      font-size: 1.2rem;
-      font-weight: 500;
+      font-size: 1.3rem;
       color: $grey-medium;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -108,6 +107,10 @@ main {
     div { 
       width: 45%;
       max-width: 422px;
+      
+      @include breakpoint(tablet-only) {
+        max-width: 522px;
+      }
       
       @include breakpoint(tablet-and-mobile) {
         width: 100%;
@@ -166,6 +169,13 @@ main {
           &:last-child {
             margin-right: 0;
           }
+          
+          img {
+            @include breakpoint(tablet-and-mobile) {
+              width: 32px;
+              height: 32px;
+            }
+          }
         }
       }
       
@@ -198,7 +208,7 @@ main {
             position: relative;
             margin-left: 10px;
             top: 1px;
-            font-weight: 500;
+            font-weight: 700;
             flex-shrink: 0;
           }
         }
@@ -214,7 +224,7 @@ main {
       img { 
         max-width: 100%;
         display: block;
-        @include breakpoint(mobile) {
+        @include breakpoint(tablet-and-mobile) {
           width: 100%;
         }        
       }
@@ -330,7 +340,6 @@ footer {
   
   strong {
     color: $grey-medium;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.3rem;
   }
 }

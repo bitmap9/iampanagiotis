@@ -40,10 +40,13 @@ ol, ul {
 html {
   font-size: 62.5%;
   height: 100%; }
+  @media (max-width: 799px) {
+    html {
+      font-size: 70%; } }
 
 body {
   font-size: 1.7em;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   line-height: normal;
   color: #474a4f;
   height: 100%;
@@ -54,8 +57,8 @@ a {
   color: #474a4f; }
 
 h1 {
-  font-weight: 800;
-  font-size: 6.4rem;
+  font-family: "League Spartan", sans-serif;
+  font-size: 5.4rem;
   margin-bottom: 10px;
   margin-top: 20px; }
   @media (max-width: 599px) {
@@ -65,24 +68,22 @@ h1 {
 h2 {
   font-size: 1.9rem;
   line-height: 1.5;
-  font-weight: 500; }
-  h2 strong {
-    font-weight: 700; }
+  font-weight: 700; }
   @media (max-width: 599px) {
     h2 {
       line-height: 1.3; } }
 
 h3, .pseudo-h3 {
   font-family: "League Spartan", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: 0.6rem; }
+  letter-spacing: 0.3rem; }
 
 .pseudo-h3 {
   color: #7e848c; }
 
 p {
-  line-height: 1.7; }
+  line-height: 1.6; }
 
 .icon {
   width: 20px;
@@ -149,8 +150,7 @@ header {
       cursor: pointer;
       display: inline-block; }
     header .lower strong {
-      font-size: 1.2rem;
-      font-weight: 500;
+      font-size: 1.3rem;
       color: #7e848c;
       margin-top: 10px;
       margin-bottom: 10px; }
@@ -185,6 +185,9 @@ main section {
   main section div {
     width: 45%;
     max-width: 422px; }
+    @media (max-width: 799px) and (min-width: 600px) {
+      main section div {
+        max-width: 522px; } }
     @media (max-width: 799px) {
       main section div {
         width: 100%;
@@ -243,6 +246,10 @@ main section {
             align-self: flex-end; }
         main section .details ul li:last-child {
           margin-right: 0; }
+        @media (max-width: 799px) {
+          main section .details ul li img {
+            width: 32px;
+            height: 32px; } }
     main section .details .cta {
       -webkit-box-flex: 1;
           -ms-flex-positive: 1;
@@ -282,7 +289,7 @@ main section {
           position: relative;
           margin-left: 10px;
           top: 1px;
-          font-weight: 500;
+          font-weight: 700;
           -ms-flex-negative: 0;
               flex-shrink: 0; }
   @media (max-width: 599px) {
@@ -292,7 +299,7 @@ main section {
   main section .media img {
     max-width: 100%;
     display: block; }
-    @media (max-width: 599px) {
+    @media (max-width: 799px) {
       main section .media img {
         width: 100%; } }
   main section.featured {
@@ -375,5 +382,4 @@ footer .grid {
         width: 100%; } }
 footer strong {
   color: #7e848c;
-  font-size: 1.2rem;
-  font-weight: 500; }
+  font-size: 1.3rem; }
