@@ -35,10 +35,6 @@ html {
   @include breakpoint(tablet-only) {
     font-size: 70%;
   }
-  
-  @include breakpoint(mobile) {
-    font-size: 67.5%;
-  }
 }
 
 body {

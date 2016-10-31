@@ -43,9 +43,6 @@ html {
   @media (max-width: 799px) and (min-width: 600px) {
     html {
       font-size: 70%; } }
-  @media (max-width: 599px) {
-    html {
-      font-size: 67.5%; } }
 
 body {
   font-size: 1.7em;
