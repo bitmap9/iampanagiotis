@@ -45,8 +45,8 @@ html {
       font-size: 70%; } }
 
 body {
-  font-size: 1.7em;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
   line-height: normal;
   color: #474a4f;
   height: 100%;
@@ -58,7 +58,7 @@ a {
 
 h1 {
   font-family: "League Spartan", sans-serif;
-  font-size: 5.4rem;
+  font-size: 5.5rem;
   margin-bottom: 10px;
   margin-top: 20px; }
   @media (max-width: 599px) {
@@ -66,17 +66,15 @@ h1 {
       font-size: 3.4rem; } }
 
 h2 {
-  font-size: 1.9rem;
-  line-height: 1.5;
-  font-weight: 700; }
+  font-size: 1.8rem;
+  line-height: 1.5; }
   @media (max-width: 599px) {
     h2 {
-      line-height: 1.3;
-      font-weight: 400; } }
+      line-height: 1.3; } }
 
 h3, .pseudo-h3 {
   font-family: "League Spartan", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem; }
 
@@ -84,7 +82,7 @@ h3, .pseudo-h3 {
   color: #7e848c; }
 
 p {
-  line-height: 1.6; }
+  line-height: 1.7; }
 
 .icon {
   width: 20px;
@@ -267,6 +265,9 @@ main section {
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; } }
+      main section .details .cta img {
+        position: relative;
+        top: 1px; }
       main section .details .cta a {
         color: #474a4f;
         display: -webkit-box;
@@ -290,7 +291,7 @@ main section {
           position: relative;
           margin-left: 10px;
           top: 1px;
-          font-weight: 700;
+          font-weight: 600;
           -ms-flex-negative: 0;
               flex-shrink: 0; }
   @media (max-width: 599px) {
@@ -322,7 +323,7 @@ main section {
       main section.intro {
         padding: 80px 20px 0; } }
     main section.intro h2 {
-      max-width: 430px;
+      max-width: 390px;
       margin: 0 auto; }
   main section.about {
     padding: 60px;
