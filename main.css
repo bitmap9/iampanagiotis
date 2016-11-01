@@ -265,9 +265,6 @@ main section {
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; } }
-      main section .details .cta img {
-        position: relative;
-        top: 1px; }
       main section .details .cta a {
         color: #474a4f;
         display: -webkit-box;
@@ -288,9 +285,7 @@ main section {
           border-color: #f7f8fA;
           background-color: #fff; }
         main section .details .cta a em {
-          position: relative;
           margin-left: 10px;
-          top: 1px;
           font-weight: 600;
           -ms-flex-negative: 0;
               flex-shrink: 0; }
