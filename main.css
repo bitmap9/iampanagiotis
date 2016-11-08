@@ -318,8 +318,9 @@ main section {
       main section.intro {
         padding: 80px 20px 0; } }
     main section.intro h2 {
-      max-width: 390px;
-      margin: 0 auto; }
+      max-width: 400px;
+      margin: 0 auto;
+      font-weight: 600; }
   main section.about {
     padding: 60px;
     margin: 140px auto 0;
