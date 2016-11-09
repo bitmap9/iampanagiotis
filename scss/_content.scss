@@ -157,6 +157,7 @@ main {
         display: flex;
         margin-top: 40px;
         display: flex;
+        align-items: flex-start;
         
         @include breakpoint(tablet-and-mobile) {
           justify-content: center;
@@ -164,16 +165,24 @@ main {
         
         li {
           margin-right: 20px;
-          align-self: flex-end;
           
           &:last-child {
             margin-right: 0;
           }
           
           img {
+            height: 28px;
+            
+            &.pencil {
+              height: 27px;
+            }           
+            
             @include breakpoint(tablet-and-mobile) {
-              width: 32px;
               height: 32px;
+              
+              &.pencil {
+                height: 31px;
+              } 
             }
           }
         }
