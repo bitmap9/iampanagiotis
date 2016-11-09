@@ -40,18 +40,18 @@ ol, ul {
 html {
   font-size: 62.5%;
   height: 100%; }
-  @media (max-width: 799px) and (min-width: 600px) {
-    html {
-      font-size: 70%; } }
 
 body {
-  font-size: 1.6em;
+  font-size: 1.7em;
   font-family: "Open Sans", sans-serif;
   line-height: normal;
   color: #474a4f;
   height: 100%;
   text-align: center;
   background-color: #fff; }
+  @media (max-width: 599px) {
+    body {
+      font-size: 1.6em; } }
 
 a {
   color: #474a4f; }
@@ -74,7 +74,7 @@ h2 {
 
 h3, .pseudo-h3 {
   font-family: "League Spartan", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem; }
 
@@ -358,12 +358,22 @@ main .remove-media {
     main .remove-media {
       margin-bottom: 0; } }
   main .remove-media .details {
-    margin-left: -30px; }
+    width: 70%;
+    max-width: none; }
+    @media (max-width: 799px) and (min-width: 600px) {
+      main .remove-media .details {
+        max-width: 522px; } }
     @media (max-width: 799px) {
       main .remove-media .details {
+        width: 100%;
         margin-left: auto;
+        margin-right: auto;
         padding-top: 80px;
         background: url("images/separator.svg") no-repeat center 0; } }
+    @media (max-width: 599px) {
+      main .remove-media .details {
+        width: 100%;
+        max-width: none; } }
   main .remove-media .media {
     display: none; }
 

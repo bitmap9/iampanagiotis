@@ -309,15 +309,26 @@ main {
       margin-bottom: 0;
     }
     
-    .details {
-      margin-left: -30px;
+    .details {     
+      width: 70%;
+      max-width: none;
       
+      @include breakpoint(tablet-only) {
+        max-width: 522px;
+      }
       
-       @include breakpoint(tablet-and-mobile) {
-         margin-left: auto;
-         padding-top: 80px;
-         background: url("images/separator.svg") no-repeat center 0;
-       }
+      @include breakpoint(tablet-and-mobile) {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 80px;
+        background: url("images/separator.svg") no-repeat center 0;
+      }
+      
+      @include breakpoint(mobile) {
+        width: 100%;
+        max-width: none;
+      }     
     }
     
     .media {

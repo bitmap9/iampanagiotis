@@ -31,20 +31,20 @@
 html {
   font-size: 62.5%;
   height: 100%;
-  
-  @include breakpoint(tablet-only) {
-    font-size: 70%;
-  }
 }
 
 body {
-  font-size: 1.6em;
+  font-size: 1.7em;
   font-family: $opensans;
   line-height: normal;
   color: $grey-dark;
   height: 100%;
   text-align: center;
   background-color: #fff;
+  
+  @include breakpoint(mobile) {
+    font-size: 1.6em;
+  }
 }
 
 a { 
@@ -74,7 +74,7 @@ h2 {
 
 h3, .pseudo-h3 {
   font-family: $spartan;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
