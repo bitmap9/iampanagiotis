@@ -97,11 +97,14 @@ p {
 .wrap {
   max-width: 1060px;
   padding: 40px 60px;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 100px;
+  
+  @include breakpoint(tablet-and-mobile) {
+    margin-bottom: 40px;
+  }
   
   @include breakpoint(mobile) {
     padding: 40px 20px;
-    margin-bottom: 0;
   }
 }
 

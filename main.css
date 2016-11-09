@@ -91,11 +91,13 @@ p {
 .wrap {
   max-width: 1060px;
   padding: 40px 60px;
-  margin: 0 auto 100px auto; }
+  margin: 0 auto 100px; }
+  @media (max-width: 799px) {
+    .wrap {
+      margin-bottom: 40px; } }
   @media (max-width: 599px) {
     .wrap {
-      padding: 40px 20px;
-      margin-bottom: 0; } }
+      padding: 40px 20px; } }
 
 .strikethrough {
   text-decoration: line-through; }
@@ -289,16 +291,18 @@ main section {
           font-weight: 600;
           -ms-flex-negative: 0;
               flex-shrink: 0; }
-  @media (max-width: 599px) {
-    main section .media {
-      background: url("images/separator.svg") no-repeat center 0;
-      padding-top: 60px; } }
-  main section .media img {
-    max-width: 100%;
-    display: block; }
-    @media (max-width: 799px) {
-      main section .media img {
-        width: 100%; } }
+  main section .media {
+    /* @include breakpoint(mobile) {
+        background: url("images/separator.svg") no-repeat center 0;
+        padding-top: 60px;         
+      }
+      NO MEDIA */ }
+    main section .media img {
+      max-width: 100%;
+      display: block; }
+      @media (max-width: 799px) {
+        main section .media img {
+          width: 100%; } }
   main section.featured {
     background-color: #f7f8fA;
     padding: 60px; }
@@ -312,15 +316,13 @@ main section {
         main section.featured .media {
           background: none;
           padding-top: 0; } }
-  main section.intro {
-    margin-bottom: 40px; }
-    @media (max-width: 599px) {
-      main section.intro {
-        padding: 80px 20px 0; } }
-    main section.intro h2 {
-      max-width: 400px;
-      margin: 0 auto;
-      font-weight: 600; }
+  @media (max-width: 599px) {
+    main section.intro {
+      padding: 80px 20px 0; } }
+  main section.intro h2 {
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: 600; }
   main section.about {
     padding: 60px;
     margin: 140px auto 0;
@@ -342,10 +344,26 @@ main section {
       padding-left: 0;
       left: 0; }
 
+main .remove-media {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  main .remove-media .details {
+    margin-left: -30px; }
+    @media (max-width: 799px) {
+      main .remove-media .details {
+        margin-left: auto;
+        padding-top: 120px;
+        background: url("images/separator.svg") no-repeat center 0; } }
+  main .remove-media .media {
+    display: none; }
+
 footer.wrap {
   margin-bottom: 0; }
+
 footer section {
   margin: 120px 0; }
+
 footer .grid {
   margin: 40px auto 160px;
   max-width: 422px;
@@ -378,6 +396,7 @@ footer .grid {
     @media (max-width: 599px) {
       footer .grid img {
         width: 100%; } }
+
 footer strong {
   color: #7e848c;
   font-size: 1.3rem; }
