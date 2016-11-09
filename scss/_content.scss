@@ -305,13 +305,17 @@ main {
   .remove-media {
     justify-content: center;
     
+    @include breakpoint(tablet-and-mobile) {
+      margin-bottom: 0;
+    }
+    
     .details {
       margin-left: -30px;
       
       
        @include breakpoint(tablet-and-mobile) {
          margin-left: auto;
-         padding-top: 120px;
+         padding-top: 80px;
          background: url("images/separator.svg") no-repeat center 0;
        }
     }

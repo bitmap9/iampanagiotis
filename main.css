@@ -354,12 +354,15 @@ main .remove-media {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media (max-width: 799px) {
+    main .remove-media {
+      margin-bottom: 0; } }
   main .remove-media .details {
     margin-left: -30px; }
     @media (max-width: 799px) {
       main .remove-media .details {
         margin-left: auto;
-        padding-top: 120px;
+        padding-top: 80px;
         background: url("images/separator.svg") no-repeat center 0; } }
   main .remove-media .media {
     display: none; }
