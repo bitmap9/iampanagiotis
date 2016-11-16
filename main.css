@@ -76,7 +76,7 @@ h3, .pseudo-h3 {
   font-family: "League Spartan", sans-serif;
   font-size: 1.3rem;
   text-transform: uppercase;
-  letter-spacing: 0.2rem; }
+  letter-spacing: 0.1rem; }
 
 .pseudo-h3 {
   color: #7e848c; }
@@ -97,6 +97,9 @@ header {
   position: relative;
   padding: 40px 60px;
   margin-bottom: 100px; }
+  @media (max-width: 799px) {
+    header {
+      margin-bottom: 60px; } }
   @media (max-width: 599px) {
     header {
       padding: 40px 20px; } }
@@ -198,7 +201,11 @@ footer .grid {
       footer .grid .grid__row {
         display: block; } }
   footer .grid .grid__row .grid__item {
-    margin-bottom: 22px; }
+    margin-bottom: 22px;
+    max-width: 200px; }
+    @media (max-width: 599px) {
+      footer .grid .grid__row .grid__item {
+        max-width: none; } }
   footer .grid img {
     display: block;
     max-width: 100%; }
@@ -225,13 +232,28 @@ main .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-align: left;
   padding: 80px 60px; }
   main .box .media, main .box .details {
-    width: 47%; }
+    width: 46%; }
+  main .box .media {
+    text-align: center; }
+    main .box .media img {
+      width: 100%; }
+  main .box .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 20px; }
   @media (max-width: 799px) {
     main .box {
       -webkit-box-orient: vertical;
@@ -247,25 +269,14 @@ main .box {
       main .box .media, main .box .details {
         width: 100%;
         max-width: 520px; }
+      main .box .details {
+        margin-left: 0;
+        margin-top: 50px; }
       main .box h3 {
-        text-align: center;
-        margin-top: 40px; } }
+        text-align: center; } }
   @media (max-width: 599px) {
     main .box {
       padding: 80px 20px; } }
-  main .box .media img {
-    width: 100%; }
-  main .box .details {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
   main .box p {
     margin-top: 20px; }
   main .box .cta {
@@ -307,6 +318,9 @@ main .box {
             flex-shrink: 0; }
   main .box.box--project {
     background-color: #f7f8fA; }
+    @media (max-width: 799px) {
+      main .box.box--project .media img {
+        width: 90%; } }
   main .box.box--about {
     border: 1px solid #dfe1e6; }
     @media (max-width: 1110px) {
