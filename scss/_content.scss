@@ -146,7 +146,6 @@ footer {
     img {
       display: block;
       max-width: 100%;
-      //filter: brightness(0.95);
       
       @include breakpoint(mobile) {
         width: 100%;
@@ -272,9 +271,29 @@ main {
     &.box--about {
       border: 1px solid $grey-xlight;
       
+      .media {
+        img {
+          display: block;
+        }
+        
+        img + img {
+          display: none;
+        }
+      }
+      
       @include breakpoint(small-desktop) {
         border: none;
         background-color: $grey-xxlight;
+        
+        .media {
+          img {
+            display: none;
+          }
+          
+          img + img {
+            display: block;
+          }
+        }
       }
     }
     
