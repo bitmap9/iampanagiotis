@@ -271,29 +271,9 @@ main {
     &.box--about {
       border: 1px solid $grey-xlight;
       
-      .media {
-        img {
-          display: block;
-        }
-        
-        img + img {
-          display: none;
-        }
-      }
-      
       @include breakpoint(small-desktop) {
         border: none;
         background-color: $grey-xxlight;
-        
-        .media {
-          img {
-            display: none;
-          }
-          
-          img + img {
-            display: block;
-          }
-        }
       }
     }
     

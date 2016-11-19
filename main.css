@@ -323,18 +323,10 @@ main .box {
         width: 90%; } }
   main .box.box--about {
     border: 1px solid #dfe1e6; }
-    main .box.box--about .media img {
-      display: block; }
-    main .box.box--about .media img + img {
-      display: none; }
     @media (max-width: 1110px) {
       main .box.box--about {
         border: none;
-        background-color: #f5f6f7; }
-        main .box.box--about .media img {
-          display: none; }
-        main .box.box--about .media img + img {
-          display: block; } }
+        background-color: #f5f6f7; } }
 
 main .title {
   margin: 100px auto; }
