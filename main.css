@@ -309,7 +309,7 @@ main .box {
       -webkit-transition: all .2s ease-in-out;
       transition: all .2s ease-in-out; }
       main .box .cta a:hover {
-        border-color: #f7f8fA;
+        border-color: #f5f6f7;
         background-color: #fff; }
       main .box .cta a em {
         margin-left: 10px;
@@ -317,7 +317,7 @@ main .box {
         -ms-flex-negative: 0;
             flex-shrink: 0; }
   main .box.box--project {
-    background-color: #f7f8fA; }
+    background-color: #f5f6f7; }
     @media (max-width: 799px) {
       main .box.box--project .media img {
         width: 90%; } }
@@ -330,7 +330,7 @@ main .box {
     @media (max-width: 1110px) {
       main .box.box--about {
         border: none;
-        background-color: #f7f8fA; }
+        background-color: #f5f6f7; }
         main .box.box--about .media img {
           display: none; }
         main .box.box--about .media img + img {
