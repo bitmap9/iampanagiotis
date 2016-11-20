@@ -82,7 +82,8 @@ h3, .pseudo-h3 {
   color: #7e848c; }
 
 p {
-  line-height: 1.7; }
+  line-height: 1.6;
+  margin-top: 20px; }
 
 .icon {
   width: 20px;
@@ -277,8 +278,6 @@ main .box {
   @media (max-width: 599px) {
     main .box {
       padding: 80px 20px; } }
-  main .box p {
-    margin-top: 20px; }
   main .box .cta {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -321,19 +320,44 @@ main .box {
     @media (max-width: 799px) {
       main .box.box--project .media img {
         width: 90%; } }
-  main .box.box--about {
-    border: 1px solid #dfe1e6; }
-    @media (max-width: 1110px) {
-      main .box.box--about {
-        border: none;
-        background-color: #f5f6f7; } }
+
+main .spotlight .spotlight__content {
+  text-align: left;
+  border: 1px solid #dfe1e6;
+  width: 65%;
+  padding: 50px;
+  margin: 0 auto;
+  position: relative;
+  left: 10px; }
+
+@media (max-width: 799px) {
+  main .spotlight .spotlight__content {
+    border: none;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    max-width: 520px;
+    left: 0; }
+    main .spotlight .spotlight__content h3 {
+      text-align: center; } }
+
+@media (max-width: 599px) {
+  main .spotlight .spotlight__content {
+    padding: 20px 20px 0; } }
 
 main .title {
   margin: 100px auto; }
+  @media (max-width: 799px) {
+    main .title.min-spacing {
+      margin: 20px auto 60px; } }
   main .title h2 {
-    max-width: 400px;
+    display: inline-block;
     margin: 0 auto;
-    font-weight: 600; }
+    font-weight: 600;
+    font-style: italic;
+    border-top: 1px solid #dfe1e6;
+    border-bottom: 1px solid #dfe1e6;
+    padding: 20px; }
   @media (max-width: 599px) {
     main .title {
       padding: 0 20px;
@@ -365,12 +389,13 @@ main .workflow > li {
       width: 100%;
       background: url("images/separator.svg") no-repeat center 0;
       margin-bottom: 0; }
+      main .workflow > li:first-child {
+        background: none;
+        padding-top: 0; }
       main .workflow > li h3 {
         text-align: center; } }
-  main .workflow > li p {
-    margin-top: 20px; }
   main .workflow > li ul {
-    margin-top: 40px;
+    margin-top: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -378,18 +403,13 @@ main .workflow > li {
         -ms-flex-align: start;
             align-items: flex-start; }
     main .workflow > li ul li {
-      margin-right: 20px; }
+      margin-right: 18px; }
       main .workflow > li ul li:last-child {
         margin-right: 0; }
       main .workflow > li ul li img {
-        height: 28px; }
+        height: 24px; }
         main .workflow > li ul li img.pencil {
-          height: 27px; }
-        @media (max-width: 799px) {
-          main .workflow > li ul li img {
-            height: 32px; }
-            main .workflow > li ul li img.pencil {
-              height: 31px; } }
+          height: 23px; }
     @media (max-width: 799px) {
       main .workflow > li ul {
         -webkit-box-pack: center;

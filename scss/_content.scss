@@ -172,7 +172,6 @@ footer {
 
 // Main Content
 main {
-
   .box {
     display: flex;
     justify-content: space-around;
@@ -222,10 +221,6 @@ main {
       padding: 80px 20px;
     }
     
-    p {
-      margin-top: 20px;
-    }
-    
     .cta {
       display: flex;
       margin-top: 30px;
@@ -266,33 +261,70 @@ main {
           width: 90%;
         }
       }   
+    } 
+  }
+  
+  .spotlight {   
+         
+    .spotlight__content {
+      text-align: left;
+      border: 1px solid $grey-xlight;
+      width: 65%;
+      padding: 50px;  
+      margin: 0 auto;
+      position: relative;
+      left: 10px;
     }
     
-    &.box--about {
-      border: 1px solid $grey-xlight;
+    @include breakpoint(tablet-and-mobile) {
+      //background-color: $grey-xxlight;
       
-      @include breakpoint(small-desktop) {
+      .spotlight__content {
         border: none;
-        background-color: $grey-xxlight;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        max-width: 520px; 
+        left: 0;
+        
+        h3 {
+          text-align: center;
+        }
       }
     }
     
+    @include breakpoint(mobile) {
+      .spotlight__content {
+        padding: 20px 20px 0;
+      }
+    }
   }
   
   .title {   
     margin: 100px auto;
-           
-      h2 {
-        max-width: 400px;
-        margin: 0 auto;
-        font-weight: 600;
-      }
-      
-      @include breakpoint(mobile) {
-        padding: 0 20px;
-        margin: 60px auto;
+    
+    &.min-spacing {
+      @include breakpoint(tablet-and-mobile) {
+        margin: 20px auto 60px;
       }
     }
+           
+    h2 {
+      //max-width: 400px;
+      display: inline-block;
+      margin: 0 auto;
+      font-weight: 600;
+      font-style: italic;
+      border-top: 1px solid $grey-xlight;
+      border-bottom: 1px solid $grey-xlight;
+      padding: 20px;      
+    }
+    
+    @include breakpoint(mobile) {
+      padding: 0 20px;
+      margin: 60px auto;
+    }
+  }
   
   .workflow > li {
     padding-left: 60px;
@@ -318,35 +350,34 @@ main {
       background: url("images/separator.svg") no-repeat center 0;
       margin-bottom: 0;
       
+      &:first-child {
+        background: none;
+        padding-top: 0;
+      }
+      
       h3 {
         text-align: center;
       }
     } 
-      
-    p { margin-top: 20px; }
     
     ul {
-      margin-top: 40px;
+      margin-top: 30px;
       display: flex;
       align-items: flex-start;
             
       li {
-        margin-right: 20px;
+        margin-right: 18px;
         
         &:last-child {
           margin-right: 0;
         }
         
         img {
-          height: 28px;
+          height: 24px;
           
-          &.pencil { height: 27px; }           
+          &.pencil { height: 23px; }           
           
-          @include breakpoint(tablet-and-mobile) {
-            height: 32px;
-            
-            &.pencil { height: 31px; } 
-          }
+          
         }
       }
       
