@@ -67,7 +67,7 @@ header {
     }
     
     strong {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       color: $grey-medium;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -163,7 +163,7 @@ footer {
     
         a {
         color: $grey-medium;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         text-decoration: none;    
       }  
     }
@@ -313,8 +313,10 @@ main {
       //max-width: 400px;
       display: inline-block;
       margin: 0 auto;
-      font-weight: 600;
+      font-family: $serif;
+      font-weight: 700;
       font-style: italic;
+      font-size: 1.7rem;
       border-top: 1px solid $grey-xlight;
       border-bottom: 1px solid $grey-xlight;
       padding: 20px;      
