@@ -16,14 +16,8 @@
     @if $point == mobile {
       @media (max-width: 599px) { @content; }
     }
-    @else if $point == tablet-and-mobile {
-      @media (max-width: 799px) { @content; }
-    }
-    @else if $point == tablet-only {
+    @else if $point == tablet {
       @media (max-width: 799px) and (min-width: 600px) { @content; }
-    }
-    @else if $point == small-desktop {
-      @media (max-width: 1110px) { @content; }
     }
   }
 }
@@ -34,7 +28,7 @@ html {
 }
 
 body {
-  font-size: 1.8em;
+  font-size: 1.9em;
   font-family: $text;
   line-height: normal;
   color: $grey-dark;
@@ -44,6 +38,10 @@ body {
   
   @include breakpoint(mobile) {
     font-size: 1.8em;
+  }
+  
+  @include breakpoint(tablet) {
+    font-size: 2.1em;
   }
 }
 
@@ -61,10 +59,14 @@ a {
 // Typography
 h1 {
   font-family: $header;
-  font-size: 4.4rem;
+  font-size: 5.2rem;
   font-weight: bold;
   letter-spacing: -2px;
   margin-top: 50px;
+  
+   @include breakpoint(mobile) {
+    font-size: 3.6rem;
+  }
 }
 
 p {
